@@ -1,0 +1,11 @@
+class vehiculo:
+    puertas = 4
+    color = None
+
+    def charT(self, puertas, color):
+        self.puertas = puertas
+        self.color = "Verde"
+
+v = vehiculo()
+v.charT(5, "Verde")
+print(v)
