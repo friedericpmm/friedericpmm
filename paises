@@ -1,0 +1,17 @@
+print("***************************************")
+print("Programa para almacenar lista de paises")
+print("***************************************")
+print("\nPara terminar el programa declares terminado.\n")
+
+
+lista = []
+terminar = "terminado"
+while True:
+    paises = input("Por favor introduzca el nombre de un pais: ")
+    lista.append(paises.capitalize())
+    if len(lista) == 5:
+        break
+
+
+lista = set(lista)
+print(sorted(lista))
